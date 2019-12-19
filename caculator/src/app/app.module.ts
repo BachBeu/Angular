@@ -6,6 +6,8 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { NameCardComponent } from './name-card/name-card.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { RatingAppComponent } from './rating-app/rating-app.component';
+import { TodoAppComponent } from './todo-app/todo-app.component';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { RatingAppComponent } from './rating-app/rating-app.component';
     CalculatorComponent,
     NameCardComponent,
     ProgressBarComponent,
-    RatingAppComponent
+    RatingAppComponent,
+    TodoAppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
