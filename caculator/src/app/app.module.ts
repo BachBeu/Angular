@@ -8,6 +8,9 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { RatingAppComponent } from './rating-app/rating-app.component';
 import { TodoAppComponent } from './todo-app/todo-app.component';
 import {ReactiveFormsModule} from '@angular/forms';
+import { RegisterComponent } from './register/register.component';
+import { RegisterFinalComponent } from './register-final/register-final.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import {ReactiveFormsModule} from '@angular/forms';
     NameCardComponent,
     ProgressBarComponent,
     RatingAppComponent,
-    TodoAppComponent
+    TodoAppComponent,
+    RegisterComponent,
+    RegisterFinalComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
